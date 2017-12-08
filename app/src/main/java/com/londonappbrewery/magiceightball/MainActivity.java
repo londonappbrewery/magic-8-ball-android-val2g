@@ -23,7 +23,16 @@ public class MainActivity extends AppCompatActivity {
                 R.drawable.ball2,
                 R.drawable.ball3,
                 R.drawable.ball4,
-                R.drawable.ball5
+                R.drawable.ball5,
+                R.drawable.ball6,
+                R.drawable.ball7,
+                R.drawable.ball8,
+                R.drawable.ball9,
+                R.drawable.ball10,
+                R.drawable.ball11,
+                R.drawable.ball12,
+                R.drawable.ball13,
+                R.drawable.ball14
         };
 
         Button askButton;
@@ -37,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Random randomNumberGenerator = new Random();
                 int number;
-                number = randomNumberGenerator.nextInt(5);
+                number = randomNumberGenerator.nextInt(14);
 
                 ballDisplay.setImageResource(ballArray[number]);
             }
